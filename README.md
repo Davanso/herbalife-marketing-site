@@ -1,4 +1,4 @@
-# 🍃 Full Stack Week McDonald's App
+# 🍃 Herbalife Marketing site
 
 Herbalife site for a marketing project
 
