@@ -5,7 +5,7 @@ import "./styles.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/herbalife-marketing-site">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product-list" element={<ProductList />} />
