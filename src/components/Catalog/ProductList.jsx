@@ -7,8 +7,8 @@ import {
 } from "react-icons/fa";
 import ProductModal from "./ProductModal";
 import products from "../../products";
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 export default function ProductList() {
   const [selectedProduct, setSelectedProduct] = useState(null);

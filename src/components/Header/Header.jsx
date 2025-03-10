@@ -1,9 +1,11 @@
 import React from "react";
 import { FaUser, FaBell, FaEye } from "react-icons/fa";
-import "../css/Header.css";
-import herbalife_logo from "../public/assets/herbalife_logo.png";
+import "./Header.css";
 
 export default function Header() {
+  // LOGO IMG
+  const herbalife_logo = "/assets/herbalife_logo.png";
+
   return (
     <header className="header">
       <div className="header-container">

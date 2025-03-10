@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import "../css/Body.css";
-import { Line } from "react-chartjs-2";
 import { useState } from "react";
+import MainChart from "../Chart/main-chart";
 import "chart.js/auto";
+import "./Body.css";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -44,19 +44,6 @@ export default function Home() {
     "Fale Conosco": () => {},
   };
 
-  // Dados para o gráfico de vendas
-  const salesData = {
-    labels: ["Out", "Nov", "Dez", "Jan", "Fev", "Mar"],
-    datasets: [
-      {
-        label: "Meses x Vendas em R$",
-        data: [2450, 3600, 12500, 2400, 8760, 6754],
-        borderColor: "#4CAF50",
-        backgroundColor: "rgba(76, 175, 80, 0.2)",
-      },
-    ],
-  };
-
   // Formata a data atual
   const currentDate = new Date();
   const formattedDate = `${currentDate
@@ -84,10 +71,8 @@ export default function Home() {
                 <h2>https://herbalife.com.br/link/1703</h2>
               </div>
             </div>
-            <h2>Histórico de Vendas</h2>
-            <div className="chart-container">
-              <Line data={salesData} />
-            </div>
+            {/* GRAFICO */}
+            <MainChart />
           </div>
 
           {/* Painel direito (carteira do usuário) */}

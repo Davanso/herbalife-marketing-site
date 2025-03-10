@@ -1,7 +1,9 @@
-import "../css/Footer.css";
-import herbalife_logo from "../public/assets/herbalife_logo.png";
+import "./Footer.css";
 
 export default function Footer() {
+  // LOGO IMG
+  const herbalife_logo = "/assets/herbalife_logo.png";
+
   return (
     <footer className="footer">
       <div className="footer-container">
