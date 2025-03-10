@@ -1,7 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
-import "../css/Home.css";
+import "../css/Body.css";
 import { Line } from "react-chartjs-2";
 import { useState } from "react";
 import "chart.js/auto";
@@ -67,7 +65,6 @@ export default function Home() {
 
   return (
     <>
-      <Header />
       <div className="background">
         <main className="home-container">
           {/* Painel esquerdo (barra lateral de navegação) */}
@@ -125,7 +122,6 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <Footer />
     </>
   );
 }
