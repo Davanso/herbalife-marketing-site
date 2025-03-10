@@ -1,0 +1,25 @@
+const herbalifeImages = {
+  chocolate: "/assets/herbalife_chocolate.png",
+  morango: "/assets/herbalife_morango.png",
+  coco: "/assets/herbalife_coco.png",
+  doceDeLeite: "/assets/herbalife_doce_de_leite.png",
+  pacoca: "/assets/herbalife_pacoca.png",
+  banana: "/assets/herbalife_banana.png",
+  abacaxi: "/assets/herbalife_abacaxi.png",
+  baunilha: "/assets/herbalife_baunilha.png",
+  cookies: "/assets/herbalife_cookies.png",
+  condicionador: "/assets/herbalife_condicionador.png",
+  desodorante: "/assets/herbalife_desodorante.png",
+  hidratante: "/assets/herbalife_hidratante.png",
+  sabonete: "/assets/herbalife_sabonete.png",
+  serum: "/assets/herbalife_serum.png",
+  shampoo: "/assets/herbalife_shampoo.png",
+  liftoff: "/assets/herbalife_liftoff.png",
+  multi: "/assets/herbalife_multi.png",
+  omega3: "/assets/herbalife_omega3.png",
+  concentrate: "/assets/herbalife_concentrate.png",
+  onactive: "/assets/herbalife_onactive.png",
+  glutamina: "/assets/herbalife_glutamina.png",
+};
+
+export default herbalifeImages;

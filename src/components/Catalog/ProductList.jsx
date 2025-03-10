@@ -6,7 +6,7 @@ import {
   FaArrowCircleRight,
 } from "react-icons/fa";
 import ProductModal from "./ProductModal";
-import products from "../../products";
+import products from "../../Products/products";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 

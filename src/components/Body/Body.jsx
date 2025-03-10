@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import MainChart from "../Chart/main-chart";
+import MainChart from "../Chart/mainChart";
 import "chart.js/auto";
 import "./Body.css";
 
